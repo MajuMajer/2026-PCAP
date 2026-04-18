@@ -1,0 +1,21 @@
+'''
+Problema: beecrowd | 1052
+Data : 2026.04.11
+Estudante: Maria Julia Pereira Majer
+'''
+mes_numero = int(input())
+meses = {
+1: "January",
+2: "February",
+3: "March",
+4: "April",
+5: "May",
+6: "June",
+7: "July",
+8: "August",
+9: "September",
+10: "Octuber",
+11: "November",
+12: "Dezember"
+}
+print(meses[mes_numero])
