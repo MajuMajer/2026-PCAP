@@ -1,0 +1,12 @@
+'''
+Problema: beecrowd | 1035
+Data: 2026.04.26
+Estudante: Maria Julia Pereira Majer
+'''
+# Objetivo: ler quatro valores 
+
+A, B, C, D = map(int, input().split())
+if (B > C) and (D > A) and (C + D > A + B) and (C > 0 and D > 0) and (A % 2 == 0):
+    print("Valores aceitos")
+else:
+    print("Valores nao aceitos")

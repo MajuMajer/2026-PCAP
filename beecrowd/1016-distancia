@@ -1,0 +1,10 @@
+'''
+Problema: beecrowd | 1016
+Data: 2026.04.26
+Estudante: Maria Julia Pereira Majer
+'''
+# Objetivo: leir a distancia e calcular quanto tempo leva
+
+distancia = int(input())
+tempo = distancia * 2
+print(f"{tempo} minutos")

@@ -1,0 +1,22 @@
+'''
+Proble: beecrowd | 1038
+Data: 2026.04.26
+Estudante: Maria Julia Pereira Majer
+'''
+# Objetivo: leia a quantidade destes itens
+
+entrada = input().split()
+codigo = int(entrada[0])
+quantidade = int(entrada[1])
+if codigo == 1:
+    preco = 4.00
+elif codigo == 2:
+    preco = 4.50
+elif codigo == 3:
+    preco = 5.00
+elif codigo == 4:
+    preco = 2.00
+elif codigo == 5:
+    preco = 1.50
+total = preco * quantidade
+print(f"Total: R$ {total:.2f}")

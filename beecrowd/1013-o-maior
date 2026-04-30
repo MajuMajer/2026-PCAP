@@ -1,0 +1,15 @@
+'''
+Problema: beecrowd | 1013
+Data: 2026.04.26
+Estudante: Maria Julia Pereira Majer
+'''
+
+# Objetivo: ler três valores e apresentar o maior
+
+linha = input().split()
+a = int(linha[0])
+b = int(linha[1])
+c = int(linha[2])
+maior_ab = (a + b + abs(a - b)) // 2
+maior_total = (maior_ab + c + abs(maior_ab - c)) // 2
+print(f"{maior_total} eh o maior")
