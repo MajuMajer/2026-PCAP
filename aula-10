@@ -3,6 +3,12 @@ Problema: beecrowd | 1001
 Data: 2026.04.07
 Estudante: Maria Julia Pereira Majer
 '''
+# Objetivo: Ler dois inteiros nas variáveis A e B, calcular a soma em X e exibir o resultado
+# --- ANÁLISE (LIAC) ---
+# Entrada: dos números inteiro, cada um em uma linha separada
+# Procesamento: somar A + B e aramazenar em X
+# Saída: exibir no formato exato "X = valor" (espap aordor do =, sem mensagem entrada)
+
 A = int(input())
 B = int(input())
 X= A + B
