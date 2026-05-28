@@ -4,6 +4,9 @@ Data: 2026.04.23
 Estudante: Maria Julia Pereira Majer
 '''
 # Objetivo: escrever um programa que leia três valores
+#ANALISE (LIAC)---
+#Entrada: o arqivo de entrada tem 3 valores
+#saida: deve conter 5 linhas de dados 
 
 linha = input().split()
 A = float(linha[0])

@@ -4,7 +4,9 @@ Data: 2026.04.23
 Estudante: Maria Julia Pereira Majer
 '''
 # Objetiv: Ler um valor float e indicar em qual intervalo ele se encotra
-
+# ANALISE (LIAC) ---
+# Entrada: contem um numero com ponto flutuante qualquer
+# Saida deve ser uma mensagem com intervalo ou fora do intervalo
 valor = float(input())
 if 0 <= valor <= 25:
     print("Intervalo [0,25]")

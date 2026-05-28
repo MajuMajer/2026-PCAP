@@ -3,6 +3,10 @@ Problema: beecrowd | 1003
 Data 2026.04.09
 Estudante: Maria Julia Pereira Majer 
 '''
+# Objetivo: ler dois valores inteiros e calcular e atribuir a soma
+# --- ANÁLISE (LIAC) ---
+# Entrada: contem dois valores 
+# Saída imprimir a mensagem soma com todas as letrasas maiusculas 
 A = int(input())
 B = int(input())
 SOMA = A + B 

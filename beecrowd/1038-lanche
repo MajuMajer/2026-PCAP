@@ -4,6 +4,8 @@ Data: 2026.04.26
 Estudante: Maria Julia Pereira Majer
 '''
 # Objetivo: leia a quantidade destes itens
+# Entrada: contém dois valores inteiro
+# Saída o arquivo de saida deve conter a mensagem "Total R$" seguido pelo o valor lido
 
 entrada = input().split()
 codigo = int(entrada[0])

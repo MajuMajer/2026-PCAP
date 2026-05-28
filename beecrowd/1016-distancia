@@ -4,6 +4,9 @@ Data: 2026.04.26
 Estudante: Maria Julia Pereira Majer
 '''
 # Objetivo: leir a distancia e calcular quanto tempo leva
+#---ANALISE (LIAC)---
+#Entrada contem um numero inteiro
+#Saida: imprimir o tempo necessario eguindo a mensagem minutos
 
 distancia = int(input())
 tempo = distancia * 2

@@ -3,19 +3,35 @@ Problema: beecrowd | 1052
 Data : 2026.04.11
 Estudante: Maria Julia Pereira Majer
 '''
+#  Objetivo: ler um valor entre 1 e 12 correspondente a esse valor deve ser apresentado como resposta do mês 
+# Entrada: contem um unico valor inteiro
+#Saida: imprimir o extenso do número
 mes_numero = int(input())
-meses = {
-1: "January",
-2: "February",
-3: "March",
-4: "April",
-5: "May",
-6: "June",
-7: "July",
-8: "August",
-9: "September",
-10: "Octuber",
-11: "November",
-12: "Dezember"
-}
-print(meses[mes_numero])
+if mes == 1:
+   print("January")
+elif mes == 2:
+    print("February")
+elif mes == 3:
+     print("March")
+elif mes == 4:
+    print("April")
+elif mes == 5:
+    print("May")
+elif mes == 6
+    print("June")
+elif mes == 7
+    print("July")
+elif mes == 8
+    print("August")
+elif mes == 9
+    print("September")
+elif mes == 10
+    print("Octube")
+elif mes ==11
+    print ("November")
+elif mes == 12
+    print("Dezember")
+
+
+
+       

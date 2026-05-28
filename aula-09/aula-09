@@ -9,3 +9,4 @@ Estudante: Maria Julia Pereira Majer
 # Entrada: Nesse não tem nenhuma entrada.
 # Processamento: Não ira aparecer nenhum calculo.
 # Saída: Deve se aparecer a mensagem "Hello World" e logo depois o final da linha.
+print('Hello World!')

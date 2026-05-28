@@ -5,6 +5,9 @@ Estudante: Maria Julia Pereira Majer
 '''
 
 # Objetivo: ler três valores e apresentar o maior
+# --- ANALISE(LIAC)---
+#Entrada o arquivo de entrada 3 valors 
+# Saida: imprimir o maior dos 3
 
 linha = input().split()
 a = int(linha[0])
