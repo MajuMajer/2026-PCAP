@@ -10,7 +10,7 @@ import random
 
 numero_secreto = random.randint(0,5)
 dedos_jogador = int(input("dedos jogador(0 a 5): "))
-entrada = input("Sua jogada (par ou ímapr): ")
+entrada = input("Sua jogada (par ou ímpar): ")
 jogada = entrada.lower().strip()
 opcoes = ["par", "ímpar"]
 if jogada not in opcoes:
