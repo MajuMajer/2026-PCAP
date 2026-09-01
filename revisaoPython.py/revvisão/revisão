@@ -1,0 +1,54 @@
+# Variaves e tipos de dados
+#Uma variavelsão espaços de memorias para guardar dados 
+#Ex: int, float, str.
+# int número inteiro (positivo e negativo)
+#idade = 25
+#temperatura = - 3
+A = int(input())
+B = int(input())
+X= A + B
+print(f"X = {X}")
+
+#Float número com pontos que indicam valores quebrados 
+#altura = 1.75
+#preco = 19.90
+float(input("5.22"))
+#STR letras, palavras ou frase 
+#nome = "Maria"
+nome = "Maria"
+mensagem = "Ola, mundo!"
+
+# Operadores 
+# São simbolos para representar as operasões matematicas 
+a = 10
+b = 3
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b) 
+
+# Entrada de dados 
+# Que serve para receber o que esta sendo pedido
+nome = input("Maria")
+cidade = input("Ponta Grossa")
+print(f"Olá Maria, que legal que vc mora em Ponta Grossa ")
+
+# Saida de dados 
+# permite sair a informação final
+print("Olá mundo!")
+
+#Etrutura de repetição 
+# serve para executar varias vezes a informação
+frutas =["maçã", "banana", "uva"]
+for f in frutas:
+    print(f)
+
+# Estrutura de condição
+# permite desviar fluxos de execução do código base em teste e logica 
+idade = 18
+if idade >= 18:
+    print("Você é maior de idade.")
+    
