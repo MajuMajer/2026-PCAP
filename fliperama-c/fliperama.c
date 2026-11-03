@@ -12,6 +12,7 @@
 #define DONO "MARIA JULIA"
 #define CAPACIDADE 50
 #define TAM_APELIDO 20
+#define ARQUIVO "jogadores.csv"
 
 void linha() {
     printf("===================================================\n");
@@ -108,6 +109,32 @@ void jogar_adivinhe(char apelidos[][TAM_APELIDO], int partidas[], int qtd) {
     }
     printf("Acertou em %d tentativas, %s!\n", tentativas, quem);
 }
+    File *arquivo = fopen(ARQUIVO, "w");
+    int i;
+
+    for (i = 0; i < qtd; i++) {
+        fprintf(arquivo, "%s,%d\n", apelidos[i]);
+    }
+    fclose(arquivo);
+}
+
+int carregar(char apelidos[][TAM_APELIDO], int partidas[]){
+    FILE *arquivo = fopen(ARQUIVO, "r");
+   int qtd = 0;
+
+   if (arquivo == NULL) {
+    return 0;
+   }
+   while (qtd < CAPACIDADE && fscanf(arquivo, "%19[^,],%d\n" apelidos[qtd], &partidas[qtd]) == 2 ){
+    qtd = qtd + 1;
+   }
+   fclose(arquivo);
+   return qtd;
+}
+
+void salvar (char apelidos[][TAM_APELIDO], int partidas[], int qtd) {
+
+}
 void mostrar_menu() {
     linha();
     printf("   FLIPERAMA DO %s\n", DONO);
@@ -123,6 +150,8 @@ int main() {
     char apelidos[CAPACIDADE][TAM_APELIDO];
     int partidas[CAPACIDADE];
     int qtd, opcao;
+
+    srand(time(NULL));
 
     srand(time(NULL));
     qtd = 0;
@@ -141,6 +170,8 @@ int main() {
         mostrar_menu();
         opcao = ler_numero("Sua escolha", 0,3);
     }
+
+    salvar(apelidos, partidas, qtd)
     titulo("Ate a proxima!");
     return 0;
 }
