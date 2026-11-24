@@ -3,3 +3,4 @@ c/*
 prog-cpp/*
 !prog-cpp/*.
 cppflperama-cpp/fliperama
+*.class
